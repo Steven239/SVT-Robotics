@@ -1,0 +1,48 @@
+#root{
+  background-color: rgba(0, 0, 0, 0.50);
+  height: 500vh;
+}
+
+.table-container{
+  border: 1px solid black;
+  margin: 80px 100px 10px 100px;
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+table{
+  width:100%;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.50);
+  height: 100%;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.hover:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.search-label{
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
